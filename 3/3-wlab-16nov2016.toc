@@ -1,0 +1,7 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Tools of the Trade - Data processing and Performance Evaluation}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}For the links 5, 14 and 35, for channels 36, 64 and 165, plot the following:}{2}
