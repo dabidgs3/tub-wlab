@@ -11,6 +11,6 @@ pdflatex _filename.tex
 Add bibliography file:
 biber _filename   #no extension
 
-Re-compile file
+Re-compile file:
 pdflatex _filename.tex
 
