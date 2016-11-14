@@ -1,0 +1,50 @@
+% $Id : latex . tex 179 2016 -03 -01  D guzman $
+%Document configuration
+\documentclass [12 pt , a4paper ] {article}
+\setlength {\topmargin }{ -2 cm }
+\setlength {\oddsidemargin }{0 cm }
+\setlength {\textheight }{24 cm }
+\setlength {\textwidth }{16 cm }
+%General format packages
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+%Graphics package
+\usepackage {graphicx}
+%Graphics configuration
+\graphicspath{ {images/} }
+\DeclareGraphicsExtensions{.png}
+%Bibliography
+\usepackage[backend=biber]{biblatex}
+%Additional package for babel package required by biblatex
+\usepackage{csquotes}
+%Bibliography config
+\addbibresource{bibliography.bib}
+%package to include pieces of code
+\usepackage{listings}
+
+%start document
+\begin{document}
+\title{\huge \textbf { Homework 3: Tools of the Trade - Data processing and Performance
+Evaluation}}
+\date { November, 9th 2016 }
+%\author { David Guzm\'an }
+\author { Group  - David Guzm\'an, Lars Prehn }
+\maketitle
+\tableofcontents{}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Tools of the Trade - Data processing and Performance
+Evaluation}
+\subsection{For the links 5, 14 and 35, for channels 36, 64 and 165, plot the following:}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[scale=0.2,width=0.75\textwidth, natwidth=7000,natheight=1000]{ecdf.eps}
+  \caption{Dataset}
+  \label{fig:Dataset}
+\end{figure}
+
+
+%Prints the bibliography
+\printbibliography
+\end{document}
