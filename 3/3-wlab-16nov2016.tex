@@ -97,12 +97,51 @@ Evaluation}
   \caption{Dataset}
   \label{fig:Dataset}
 \end{figure}
+\subsection{For each combination of link and channel (yes, that means
+ 1014 combinations, 78 links and 13
+channels), compute the MAC frame delivery ratio and the median RSS.}
 \begin{figure}[!ht]
   \centering
   \includegraphics[scale=0.8]{rssvsn.eps}
   \caption{Dataset}
-  \label{fig:Dataset}
+  \label{fig:rssvsn}
 \end{figure}
+\subsection{Plot}
+\par channel versus all corresponding delivery ratios, i.e., you have the channel number on
+x-axis and delivery ratios on the y-axis.
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[scale=0.8]{fdrvsch.eps}
+  \caption{FDR vs Chanel}
+  \label{fig:fdrvsch}
+\end{figure}
+\par fdr vs link
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[scale=0.8]{fdrvslink.eps}
+  \caption{FDR vs Links}
+  \label{fig:fdrvslink}
+\end{figure}
+
+\par Chanel vs RSS
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[scale=0.8]{light-rssvsch.eps}
+  \caption{RSS vs Chanel}
+  \label{fig:rssvsch}
+\end{figure}
+
+\par Link vs RSS
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[scale=0.8]{lighter-rssvslink.eps}
+  \caption{RSS vs Link}
+  \label{fig:rssvslink}
+\end{figure}
+\subsection{Consider the data for the links 1 and 17. Plot 
+the ECDFs for all the RSS values of both links
+(i.e., two lines into a single plot). What do you observe?}
+
 %Prints the bibliography
 \printbibliography
 \end{document}
